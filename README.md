@@ -526,6 +526,15 @@ Do the transformed relationships look more linear? If so, they should be include
 
 Choose up to 3 of the features you investigated, and set up an X dataframe containing the log-transformed versions of these features as well as a y series containing the log-transformed version of the target.
 
+---
+
+<details>
+    <summary style="cursor: pointer"><b>Hint (click to reveal)</b></summary>
+
+If you are planning log transform a feature measured in _years_ (e.g. `YearRemodAdd`) consider shifting the data first. For example, you might subtract 1900 or 1910 from the year, so that a 1% increase in year is closer to meaning 1 year rather than 20 years.
+
+</details>
+
 
 ```python
 # Your code here - prepare data for modeling
