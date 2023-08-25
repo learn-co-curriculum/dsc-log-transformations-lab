@@ -455,7 +455,7 @@ For reference, a good candidate for this might look like any of these three grap
 
 ---
 
-![e^x](log_graphs.png)
+![e^x](https://curriculum-content.s3.amazonaws.com/data-science/images/log_graphs.png)
 
 Try to find one feature that resembles each of these shapes.
 
